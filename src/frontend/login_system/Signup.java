@@ -124,14 +124,14 @@ public class Signup extends JPanel {
         clearButton.setBounds(750, 590, 100, 30);
 
         showButtom1 = new JButton("Show");
-        textArea7.setFont(new Font("Verdana", Font.ROMAN_BASELINE, 13));
-        textArea7.setBackground(Color.DARK_GRAY);
-        textArea7.setBounds(550, 545, 300, 20);
+        showButtom1.setFont(new Font("Verdana", Font.ROMAN_BASELINE, 13));
+        showButtom1.setBackground(Color.lightGray);
+        showButtom1.setBounds(950, 475, 100, 30);
 
         showButton2 = new JButton("Show");
-        textArea7.setFont(new Font("Verdana", Font.ROMAN_BASELINE, 13));
-        textArea7.setBackground(Color.DARK_GRAY);
-        textArea7.setBounds(550, 545, 300, 20);
+        showButton2.setFont(new Font("Verdana", Font.ROMAN_BASELINE, 13));
+        showButton2.setBackground(Color.lightGray);
+        showButton2.setBounds(950, 539, 100, 30);
 
         add(titleLabel);
         add(nameLabel);
@@ -150,5 +150,7 @@ public class Signup extends JPanel {
         add(textArea7);
         add(submitButton);
         add(clearButton);
+        add(showButtom1);
+        add(showButton2);
     }
 }
